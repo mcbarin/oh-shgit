@@ -105,3 +105,14 @@ First thing to do is to list all the problems that we have encountered before.
 - How to selectively merge or pick changes from another branch in Git?
 
 
+### For Developers
+- Requirements: 
+  - Python 3.x
+  - virtualenv
+
+- ```
+  virtualenv venv -p python3
+  source venv/bin/activate
+  pip install -r requirements.txt
+  python oh-shgit.py [keyword]
+  ```
