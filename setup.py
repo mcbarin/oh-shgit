@@ -2,9 +2,9 @@ from setuptools import setup
 
 
 setup(
-    name='oh-shgit',
+    name='ggt',
     version='0.1',
-    py_modules=['oh-shgit'],
+    py_modules=['ggt'],
     author="Mehmet Çağatay Barın",
     author_email="mcagataybarin@gmail.com",
     url="https://github.com/mcbarin/oh-shgit",
@@ -14,6 +14,6 @@ setup(
     ],
     entry_points='''
         [console_scripts]
-        oh-shgit=oh-shgit:main
+        ggt=ggt:main
     '''
 )
