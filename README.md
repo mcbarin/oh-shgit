@@ -114,5 +114,6 @@ First thing to do is to list all the problems that we have encountered before.
   virtualenv venv -p python3
   source venv/bin/activate
   pip install -r requirements.txt
-  python oh-shgit.py [keyword]
+  pip install --editable .
+  ggt [keyword] 
   ```
